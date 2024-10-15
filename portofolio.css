@@ -1,0 +1,54 @@
+body {
+  background-color: #b0c12e;
+  color: #333;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+}
+
+.biodata, .news{
+  background-color: #d6de9b;
+  padding: 30px 15px;
+  border-radius: 5px;
+}
+
+.form-class  .contact{
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #666666; /* Warna latar belakang footer */
+  color: #f1f1f1; /* Warna teks di footer */
+  padding: 10px 0; /* Padding atas dan bawah footer */}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 5px 5px 0 0;
+}
+
+.btn {
+  width: 100%;
+}
+
+/* Gaya untuk navbar link */
+.navbar-nav .nav-link {
+    color: #007bff; /* Warna teks link */
+    transition: color 0.3s; /* Efek transisi saat hover */
+}
+
+/* Gaya saat hover pada navbar link */
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Warna saat hover */
+    text-decoration: underline; /* Garis bawah saat hover */
+}
